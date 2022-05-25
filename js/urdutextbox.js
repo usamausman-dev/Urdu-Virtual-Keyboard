@@ -1,11 +1,3 @@
-// UrduTextBox.js is javascript used to enable HTML textbox and textarea to allow editing of Urdu text in it.
-// Similar source code was used in "UrduBar" addon in past which was developed for FireFox Web Browsers
-// Developed by "Naseem Amjad" WebAddress=http://naseem.amjad.googlepages.com/ , Email=naseem@technologist.com
-// If you find this component useful and able to earn money by using it, it is required to submit 7% of profit to developer of this component. For details email to naseem.amjad[at]gmail.com
-
-//Known Limitation: TextArea in Internet Explorer<11 does not move cursor to next line on pressing Enter Key if the line contains non visible characters like space or no charachter at all.
-//09-09-2014: Added support for IE11
-
 function MakeTextBoxUrduEnabled(txtObj) {
     //set page event handlers
     if (window.attachEvent) { //Support is expected to discontinue in IE11
