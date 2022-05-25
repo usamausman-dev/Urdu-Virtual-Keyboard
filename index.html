@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto Nastaliq Urdu' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Noto Nastaliq Urdu', 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<script src='/js/urdutextbox.js'></script>
+<script>
+
+    window.onload = myOnload;
+    function myOnload(evt) {
+        MakeTextBoxUrduEnabled(txtBox2);//enable Urdu in html text area
+    }
+
+</script>
+
+
+<body>
+
+    <div class="container">
+        <div class="keyboard_wrapp">
+            <!-- <div class="keyboard_lights"></div> -->
+            <div class="keyboard_keys">
+                <div class="row">
+                    <div class="keys">`</div>
+                    <div class="keys">1</div>
+                    <div class="keys">2</div>
+                    <div class="keys">3</div>
+                    <div class="keys">4</div>
+                    <div class="keys">5</div>
+                    <div class="keys">6</div>
+                    <div class="keys">7</div>
+                    <div class="keys">8</div>
+                    <div class="keys">
+                        <span class="mainkey">9</span>
+                        <sub class="subkeys">(</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">0</span>
+                        <sub class="subkeys">)</sub>
+                    </div>
+                    <div class="keys">-</div>
+                    <div class="keys">=</div>
+                    <div class="keys backspace_key">Backspace</div>
+                </div>
+                <div class="row">
+                    <div class="keys tab_key">Tab</div>
+                    <div class="keys">
+                        <span class="mainkey">ق</span>
+                        <!-- <sub class="subkeys">ظ</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">و</span>
+                        <!-- <sub class="subkeys">ض</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey"> ع</span>
+                        <!-- <sub class="subkeys">ذ</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ر</span>
+                        <sub class="subkeys">ڑ</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ت</span>
+                        <sub class="subkeys">ٹ</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ے</span>
+                        <!-- <sub class="subkeys">ّ</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ء</span>
+                        <sub class="subkeys">ئ</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ی</span>
+                        <!-- <sub class="subkeys">ـ</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ہ</span>
+                        <!-- <sub class="subkeys">چ</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">پ</span>
+                        <!-- <sub class="subkeys">خ</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey"></span>
+                        <sub class="subkeys"></sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey"></span>
+                        <sub class="subkeys"></sub>
+                    </div>
+                    <div class="keys slash_key">
+                        <span class="mainkey"></span>
+                        <sub class="subkeys"></sub>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="keys caps_lock_key">Caps Lock</div>
+                    <div class="keys">
+
+                        <span class="mainkey">ا</span>
+                        <sub class="subkeys">آ</sub>
+
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">س</span>
+                        <sub class="subkeys">ص</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">د</span>
+                        <sub class="subkeys">ڈ</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ف</span>
+                        <!-- <sub class="subkeys">"</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">گ</span>
+                        <sub class="subkeys">غ</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ھ</span>
+                        <sub class="subkeys">ح</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ج</span>
+                        <sub class="subkeys">ض</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ک</span>
+                        <sub class="subkeys">خ</sub>
+                    </div>
+
+                    <div class="keys">
+                        <span class="mainkey">ل</span>
+                        <!-- <sub class="subkeys">گ</sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">؛</span>
+                        <sub class="subkeys">:</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">’</span>
+                        <sub class="subkeys">”</sub>
+                    </div>
+
+                    <div class="keys enter_key">Enter</div>
+                </div>
+                <div class="row">
+                    <div class="keys shift_key shift_left">Shift</div>
+                    <div class="keys">
+                        <span class="mainkey">ز</span>
+                        <sub class="subkeys">ذ</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ش</span>
+                        <sub class="subkeys">ژ</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">چ</span>
+                        <sub class="subkeys">ث</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ط</span>
+                        <sub class="subkeys">ظ</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ب</span>
+
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">ن</span>
+                        <sub class="subkeys">ں</sub>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">م</span>
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">،</span>
+                        <!-- <sub class="subkeys"> &lt </sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey">۔</span>
+                        <!-- <sub class="subkeys"> &gt </sub> -->
+                    </div>
+                    <div class="keys">
+                        <span class="mainkey"></span>
+                        <sub class="subkeys"> ؟ </sub>
+                    </div>
+
+                    <div class="keys shift_key shift_right">Shift</div>
+                </div>
+                <div class="row">
+                    <div class="keys ctrl_key ctrl_left">Ctrl</div>
+                    <div class="keys win_key">Win</div>
+                    <div class="keys alt_key alt_left">Alt</div>
+                    <div class="keys space_key"></div>
+                    <div class="keys alt_key alt_right">Alt</div>
+                    <div class="keys">Fn</div>
+                    <div class="keys ctrl_key ctrl_right">Ctrl</div>
+                </div>
+            </div>
+        </div>
+
+        <textarea id="txtBox2" name="txtBox2" dir="rtl" cols="50" rows="2" class="text"></textarea>
+    </div>
+
+
+    <script src="js/urdutextbox.js"></script>
+</body>
+
+</html>
